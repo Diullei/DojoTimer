@@ -3,7 +3,7 @@
 
   chrome.experimental.app.onLaunched.addListener(function() {
     return chrome.app.window.create('index.html', {
-      'width': 400,
+      'width': 410,
       'height': 150
     });
   });

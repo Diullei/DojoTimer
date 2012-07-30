@@ -56,7 +56,9 @@
       this.currentmil = 9;
       this.strsec = "00";
       this.strmin = "00";
-      return this.strmil = "00";
+      this.strmil = "00";
+      setTimeout(proxy(this.start, this), 100);
+      return null;
     };
 
     return TimerControl;

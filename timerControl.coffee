@@ -51,6 +51,8 @@ class TimerControl
     @strsec = "00"
     @strmin = "00"
     @strmil = "00"
+    setTimeout proxy(@start, @), 100
+    null
 
 control = new TimerControl
 control.start()
